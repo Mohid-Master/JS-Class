@@ -69,7 +69,7 @@ var name = "Junaid";
 // console.log(yourDOBYear); // birthyear
 
 //post increament
-//pre increament
+//pre increament 
 
 
 
