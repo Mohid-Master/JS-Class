@@ -20,10 +20,10 @@ var universityName = "Federal Urdu University";
 // console.log("University: ", universityName);
 
 
-var nationality; //declaration
-nationality = 10; // assignment
+var age; //declaration
+age = 30; // assignment
 
-
+// console.log(age);
 // console.log("response ", myName);
 
 
@@ -81,10 +81,42 @@ i++; // 9
 i++; // 10
 --i; // 9
 
-console.log(i);
+// console.log(i);
 
 
-console.log("today class");
+// console.log("today class");
+
+// fareihight to celcius
+// celcius to fareihight
+// v = s/t . 200km / 1h 
+// s = v*t 
+
+
+var product = (3 + 1) * 4; //BDMAS
+
+// console.log('product', product);
+
+// var profile = ""
+
+// var c = prompt("tell me celcius temperature!", 0);
+// var f = ((9/5)*c)+32;
+// console.log(f);
+
+// var res = prompt("sir aaj class hogi?");
+// if(false){
+//     console.log('yes aaj class hogi')
+// }
+
+// Boolean -> true / false;
+
+// 70-79 -> 'A';
+// 60-69 -> 'B';
+// 50-59 -> 'C';
+
+
+
+
+
 
 
 
