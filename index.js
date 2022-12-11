@@ -112,7 +112,44 @@ var product = (3 + 1) * 4; //BDMAS
 // 70-79 -> 'A';
 // 60-69 -> 'B';
 // 50-59 -> 'C';
+// < 35  -> 'F';
 
+// if(){}
+// if{}else{}
+// else if
+//else
+
+// switch
+
+
+// var guess = Math.floor(Math.random() * 10);
+// var userInp = +prompt('guess any number?', 0);
+// console.log("guess", guess);
+// if(userInp == guess){
+//     console.log(`Congratulation! you won!`);
+// }else{
+//     console.log(`You lose`);
+// }
+
+// user give input as percentage
+// 80
+
+var userInput = +prompt('Input your percentage');
+var gender = prompt('mention your gender, press f for femal and m for male');
+ 
+if(userInput == 0){
+    console.log('invalid number');
+}else if(userInput >= 60 && userInput < 70){
+    console.log('B');
+}else if(userInput >= 70 && userInput < 80){
+    console.log('A');
+}else if(userInput >= 80 && userInput < 90){
+    console.log('A+')
+} else if(userInput > 0 && userInput <= 35){
+    console.log('fail');
+}else{
+    console.log('you entered exceeded number')
+}
 
 
 
