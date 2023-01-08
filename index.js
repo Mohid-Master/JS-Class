@@ -134,30 +134,51 @@ var product = (3 + 1) * 4; //BDMAS
 // user give input as percentage
 // 80
 
-var userInput = +prompt('Input your percentage');
-var gender = prompt('mention your gender, press f for femal and m for male');
+// var userInput = +prompt('Input your percentage');
+// var gender = prompt('mention your gender, press f for femal and m for male');
  
-if(userInput == 0){
-    console.log('invalid number');
-}else if(userInput >= 60 && userInput < 70){
-    console.log('B');
-}else if(userInput >= 70 && userInput < 80){
-    console.log('A');
-}else if(userInput >= 80 && userInput < 90){
-    console.log('A+')
-} else if(userInput > 0 && userInput <= 35){
-    console.log('fail');
-}else{
-    console.log('you entered exceeded number')
-}
+// if(userInput == 0){
+//     console.log('invalid number');
+// }else if(userInput >= 60 && userInput < 70){
+//     console.log('B');
+// }else if(userInput >= 70 && userInput < 80){
+//     console.log('A');
+// }else if(userInput >= 80 && userInput < 90){
+//     console.log('A+')
+// } else if(userInput > 0 && userInput <= 35){
+//     console.log('fail');
+// }else{
+//     console.log('you entered exceeded number')
+// }
 
 
 
+// var age=+prompt("what is your age");
+// 20
+// if(age < 18){
+//     console.log("you can not vote");
+// }else{
+//     console.log("you can vote");
+// }
+
+// and &&
+// or ||
 
 
+// var userInput = 20;
+// if(false && userInput > 10){
+//     alert("all is well");
+// }
+
+false && true // false
+true && false // false
+false && false // false
 
 
-
+true && true // true
+false && true // false
+true && false // false
+false && false // false
 
 
 
